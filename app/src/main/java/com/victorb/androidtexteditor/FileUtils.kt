@@ -1,7 +1,9 @@
 package com.victorb.androidtexteditor
 
 import android.content.Context
+import android.widget.Toast
 import androidx.documentfile.provider.DocumentFile
+import com.anggrayudi.storage.file.isReadOnly
 import com.anggrayudi.storage.file.openInputStream
 import com.anggrayudi.storage.file.openOutputStream
 import java.io.FileNotFoundException
@@ -19,9 +21,7 @@ fun getFileContent(context: Context, documentFile: DocumentFile): String {
 }
 
 fun writeToFile(context: Context, documentFile: DocumentFile, content: String) {
-    try {
-        PrintWriter(documentFile.openOutputStream(context)!!).use { p -> p.println(content) }
-    } catch (e1: FileNotFoundException) {
-        e1.printStackTrace()
+    PrintWriter(documentFile.openOutputStream(context)!!).use { p ->
+        p.println(content)
     }
 }
