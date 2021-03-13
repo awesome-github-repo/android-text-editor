@@ -14,9 +14,11 @@ fun getFileContent(context: Context, documentFile: DocumentFile): String {
     val bf = documentFile.openInputStream(context)!!.bufferedReader()
     var line = bf.readLine()
     while (line != null) {
-        sb.append(line)
+        sb.append(line + "\n")
         line = bf.readLine()
     }
+    println("CONTENT")
+    println(sb.toString())
     return sb.toString()
 }
 

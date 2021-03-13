@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
             R.id.item_save_file -> {
                 val content = findViewById<EditText>(R.id.editTextTextMultilineContent).text.toString()
                 writeToFile(this, openedFile, content)
-                Toast.makeText(this, "Saved file successfully", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "File saved successfully", Toast.LENGTH_LONG).show()
             }
         }
         return super.onOptionsItemSelected(item)
