@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [0.2.0]() - 2021-03-13
 
 ### Added
 
@@ -10,7 +10,7 @@
 
 - The colors
 
-## [0.1.0] - 2021-03-12
+## [0.1.0](https://github.com/victorbnl/android-text-editor/releases/tag/v0.1.0) - 2021-03-12
 
 ### Added
 
