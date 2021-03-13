@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- App icon
+
 ### Changed
 
 - The colors

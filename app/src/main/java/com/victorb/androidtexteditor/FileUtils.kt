@@ -21,6 +21,7 @@ fun getFileContent(context: Context, documentFile: DocumentFile): String {
 }
 
 fun writeToFile(context: Context, documentFile: DocumentFile, content: String) {
+    println("THE URI IS : " + documentFile.uri)
     PrintWriter(documentFile.openOutputStream(context)!!).use { p ->
         p.println(content)
     }
