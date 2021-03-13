@@ -5,6 +5,7 @@
 ### Added
 
 - An home screen
+- A name (Notepad--)
 
 ## [0.2.0]() - 2021-03-13
 

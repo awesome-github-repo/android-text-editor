@@ -1,6 +1,6 @@
 <img src="./.readme/images/icons/app.png" align="right" width="150px">
 
-<h1>Android Text Editor</h1>
+# Notepad--
 
 A bare-bone text editor for Android
 
@@ -12,6 +12,6 @@ A bare-bone text editor for Android
 
 ## FAQ
 
-**The app asks me for a folder while it should ask me for a file to edit**
+### The app asks me for a folder while it should ask me for a file to edit
 
 It can do that at first start, that's strange. I'll try to fix it but for now please just close the app and open it again, it should then work for the next launches
