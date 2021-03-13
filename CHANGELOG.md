@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+
+- An home screen
+
 ## [0.2.0]() - 2021-03-13
 
 ### Added
